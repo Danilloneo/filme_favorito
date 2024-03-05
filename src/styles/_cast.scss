@@ -37,7 +37,7 @@ h2 {
     img {
         height: 280px;
         @media (max-width: 768px) {
-          width: 270px;
+          height: 200px;
         }
     }
 
@@ -71,6 +71,7 @@ h2 {
   p {
     text-align: center;
     color: #fff;
+    padding-bottom: 50px;
   }
 
 }
