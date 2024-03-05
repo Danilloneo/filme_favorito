@@ -28,6 +28,10 @@ body {
     background-size: contain;
     position: fixed;
     pointer-events: none; 
+    @media (max-width: 768px){
+        display: none;
+    }
+        
     }
 
 
