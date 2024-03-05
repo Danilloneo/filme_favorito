@@ -1,0 +1,90 @@
+
+.about {
+
+        padding: 5.6vw;
+        z-index: 1;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #0411308d; 
+
+    &__container {
+    display: block;
+    @media (max-width:768px) {
+    margin: 0 auto;
+    padding: 0 24px;
+}
+    img {
+        padding-bottom: 24px;
+    }
+
+    &__texto {
+        display: flex; 
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+        color: #fff;   
+        @media (max-width:768px) {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    p {
+        padding-right: 20px;
+        @media (max-width: 768px) {
+            padding-bottom: 24px;
+        }
+    }
+    video {
+        width: 600px;
+        z-index: 1;
+        border: 3px solid rgb(169, 145, 8);
+        @media (max-width:768px) {
+            display: block;
+            max-width: 430px;
+        }
+
+    }
+        }
+    }
+
+
+
+video[controls]::-webkit-media-controls {
+    cursor: none;
+}
+
+video[controls]::-webkit-media-controls-panel {
+    cursor: none;
+}
+video[controls]::-webkit-media-controls-play-button {
+    cursor: none;
+}
+
+video::-webkit-media-controls-timeline {
+    cursor: none;
+}
+video::-moz-range-thumb {
+    cursor: none;
+}
+video::-ms-thumb {
+    cursor: none;
+}
+
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-toggle-closed-captions-button,
+video::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-volume-slider-container,
+video::-webkit-media-controls-volume-mute-button,
+video::-webkit-media-controls-fullscreen-button,
+video::-webkit-media-controls-overflow-button {
+    cursor: none !important;
+}
+
+

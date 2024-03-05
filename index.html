@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="author" name="Danillo Guimarães">
+  <link rel="stylesheet" href="./dist/css/main.css">
+  <title>Varinha Mágica</title>
+  <div class="cursor-varinha">
+  </div>
+</head>
+<body>
+<header class="header">
+    <div class="header__branding">
+          <img class="header__branding__logo" src="./dist/images/branding.png" alt="Logo Harry Potter">
+      </div>
+          <button class="header__branding__botao">ENTRAR</button>
+      
+      <div class="header__links">
+          <nav>
+              <ul class="header__links__nav">
+                  <li class="header__links__nav__item"><a href="#presentation">Início</a></li> 
+                  <img src="./dist/images/cicatriz.png" alt="" style="width: 35px; height: 50px; padding-top: 20px;">
+                  <li class="header__links__nav__item"><a href="#about">Sobre</a></li>
+                  <img src="./dist/images/cicatriz.png" alt="" style="width: 35px; height: 50px; padding-top: 20px;">
+                  <li class="header__links__nav__item"><a href="#cast">Elenco</a></li>
+              </ul>
+          </nav>
+      </div><!--botoes-->
+</header>
+<section class="presentation" id="presentation">
+    <div class="container">
+      <div class="banner">
+      <h1 class="text">
+        O Armário Sob a Escada, Rua dos Alfeneiros, nº 4
+      </h1>
+      </div>
+    </div>
+</section>
+<section class="about" id="about">
+  <div class="about__container">
+    <h2 style="color: #fff;">Sobre o Filme</h2>
+    <img src="./dist/images/hogwarts.png" alt="Hogwarts"> 
+    <div class="about__container__texto">
+    <p>Harry Potter é um jovem comum de 11 anos até que recebe uma carta para estudar na Escola de Magia e Bruxaria de Hogwarts, onde ele descobre ser, na verdade, um bruxo. Nela, o garoto conquista a amizade de Hagrid, além de Hermione e Ron. No entanto, ele descobre ter um grande inimigo, o terrível Voldemort. Cada ano em que faz aniversário Harry Potter volta para Hogwarts em mais uma aventura. Mas desta vez o Bruxo corre perigo.
+    <div class="about__container__video">
+    <video src="./dist/images/hp.mp4" controls></video>
+  </div>
+  </div>
+  </div>
+</section><!--about-->
+<section class="cast" id="cast">
+  <h2>O Elenco</h2>
+  <p>O elenco de Harry Potter ao longo de todos os filmes conta com uma vasta gama de atores excepcionais, aqui serão apresentados apenas algums.</p>
+  <div class="container" id="cardContainer">
+    <div class="card">
+      <br>
+      <span>Alvo Dumbledore</span>
+      <span>Diretor</span>
+      <img src="./dist/images/cards/dumbledoreok.png" alt="Dubmledore">
+    </div>
+    <div class="card">
+      <br>
+      <span>Ron Weasley</span>
+      <span>Aluno</span>
+      <span>Grifinória</span>
+      <img src="./dist/images/cards/ronok.png" alt="Ron Weasley">
+    </div>
+    <div class="card">
+      <br>
+      <span>Harry Potter</span><br>
+      <span>Aluno</span>
+      <span>Grifinória</span>
+      <img src="./dist/images/cards/harryok.png" alt="Harry Potter">
+    </div>
+    <div class="card">
+      <br>
+      <span>Hermione Granger</span>
+      <span>Aluna</span>
+      <span>Grifinória</span>
+      <img src="./dist/images/cards/hermioneok.png" alt="Hermione Granger"></div>
+    <div class="card">
+      <br>
+      <span>Luna Lovegood</span>
+      <span>Aluna</span>
+      <span>Corvinal</span>
+      <img src="./dist/images/cards/lunaok.png" alt=""></div>
+
+  </div>
+  <div class="container control">
+    <button class="nav-button prev" onclick="scrollCards(-1)">❮</button>
+    <button class="nav-button next" onclick="scrollCards(1)">❯</button>
+  </div>
+
+
+</section>
+<footer>
+  <div class="footer">
+  <div class="footer__container">
+    <h2 style="color: #fff;">&copy; Todos os Direitos Reservados</h2>
+  <p>
+    Este é um trabalho desenvolvido para fins acadêmicos e não tem vínculo com a autora J.K Rowling ou mesmo com a Warner Bros.
+  </p>
+  <div class="footer__social">
+    <ul class="footer__list">
+      <li class="item"><a href="https://www.linkedin.com/in/danillo-lopes/" target="_blank"><img src="./dist/images/social/linkedin.svg"></a></li>
+      <li class="item"><a href="https://www.instagram.com/danilloneo/" target="_blank"><img src="./dist/images/social/instagram.svg"></a></li>
+      <li class="item"><a href="https://github.com/Danilloneo" target="_blank"><img src="./dist/images/social/github.svg"></a></li>
+    </ul>
+  </div>
+  </div>
+  </footer>
+
+  <script src="./dist/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.presentation .container {
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+
+}
+
+.presentation .banner {
+    background-image: url('../images/sec1origi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    display: block;
+    @media (max-width:768px) {
+        background-size: cover;
+    }
+}
+
+.presentation h1 {
+    font-size: 30px;
+    padding-top: 20px;
+    text-shadow: 5px 2px 5px rgb(230, 171, 23);
+}

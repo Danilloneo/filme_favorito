@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: none !important;
+}
+
+
+body {
+    background-image: url(../images/background.gif);
+    background-size: cover;
+}
+
+.cursor-varinha {
+    z-index: 1001;
+    width: 120px; /* Ajuste o tamanho conforme necessário */
+    height: 120px; /* Ajuste o tamanho conforme necessário */
+    background: url('../images/varinha.png') no-repeat center;
+    background-size: contain;
+    position: fixed;
+    pointer-events: none; /* Ignora eventos do mouse para que o cursor personalizado seja visível */
+    }
+
+
+
+header {
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    border-bottom: 2px solid rgb(169, 145, 8);
+    justify-content: space-between;
+    width: 100%;
+    }
+
+
+header  ul {
+        display: flex;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+header  li {
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    a:hover {
+        color: rgb(237, 206, 25);
+    }
+
+    .logo {
+        text-align: center;
+        margin: 0 auto;
+        background-color: #020518;
+    }
+    
+    .botoes {
+        align-items: center;
+        text-align: center;
+    }
+
+    button {
+        position: fixed;
+        right: 120px;
+        top: 30px;
+        padding: 20px;
+        border-radius: 8px;
+        border: none;
+        background-color: transparent;
+        color: rgb(248, 213, 16);
+        border: 1px solid rgb(243, 208, 10); 
+        font-weight: bold;
+    }
+    
+    button:hover {
+        background-color:  rgb(248, 213, 16);
+        color: #020518;
+    }
+
+img {
+    width: 200px;
+}
+
+.presentation .container {
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+
+}
+
+.presentation .banner {
+    background-image: url('../images/sec1origi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    display: block;
+}
+
+.presentation h1 {
+    font-size: 30px;
+    padding-top: 20px;
+    text-shadow: 5px 2px 5px rgb(230, 171, 23);
+}
+
+.about video {
+    width: 600px;
+    z-index: 1;
+    border: 3px solid rgb(243, 208, 10); 
+}
+
+video[controls]::-webkit-media-controls {
+    cursor: none;
+}
+
+video[controls]::-webkit-media-controls-panel {
+    cursor: none;
+}
+video[controls]::-webkit-media-controls-play-button {
+    cursor: none;
+}
+
+video::-webkit-media-controls-timeline {
+    cursor: none;
+}
+  /* Adicione esta regra para navegadores baseados em Gecko (Firefox) */
+video::-moz-range-thumb {
+    cursor: none;
+}
+  /* Adicione esta regra para navegadores baseados em Edge */
+video::-ms-thumb {
+    cursor: none;
+}
+
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-toggle-closed-captions-button,
+video::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-volume-slider-container,
+video::-webkit-media-controls-volume-mute-button,
+video::-webkit-media-controls-fullscreen-button,
+video::-webkit-media-controls-overflow-button {
+    cursor: none !important;
+}
+
+.about .container {
+    padding: 5.6vw;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+
+.container h2 {
+    padding-bottom: 24px;
+}
+
+.conteudo {
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.conteudo p {
+    font-size: 18px;
+}
+

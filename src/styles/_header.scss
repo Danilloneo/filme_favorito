@@ -1,0 +1,98 @@
+.header  {
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #041130;
+    border-bottom: 2px solid rgb(169, 145, 8);
+    width: 100%;
+    transition: background 1s ease;
+
+    &.header--is-hidden {
+        
+        background-color: transparent;
+        transition: background 1s ease;
+        }
+    
+        
+    &__branding {
+        display: flex;
+        justify-content: space-between;
+        background-color: #020518; 
+        text-align: center;
+        align-items: center;
+        position: relative;
+
+        @media (max-width: 768px){
+            display: block;
+        }
+            &__logo { 
+                align-items: center;
+                text-align: center;
+                width: 200px;
+                left: 43%;
+                position: relative;
+                @media (max-width: 768px){
+                    display: block;
+                    width: 150px;
+                    left: 23%;
+                }
+            }
+            &__botao {
+                position: fixed;
+                right: 120px;
+                top: 30px;
+                padding: 20px;
+                border-radius: 8px;
+                border: none;
+                background-color: transparent;
+                color: rgb(248, 213, 16);
+                border: 1px solid rgb(243, 208, 10); 
+                font-weight: bold;
+                @media (max-width: 768px) {
+                    top: 10px;
+                    right: 50px;
+                }
+                &:hover {
+                    background-color:  rgb(248, 213, 16);
+                    color: #020518;
+                }
+            }  
+        }
+
+        &__links {
+            align-items: center;
+            text-align: center;
+            &__nav {
+                display: flex;
+                max-width: 300px;
+                //margin: 0 auto;
+                margin-left: 50px;
+                &__item {
+                    margin: 0 auto;
+                    padding: 20px 20px 0 20px;
+                }
+    
+            }
+                        
+            a {
+            
+                text-decoration: none;
+                color: #fff;
+                font-size: 20px;
+                
+            }
+            
+            a:hover {
+                color: rgb(237, 206, 25);
+            }
+        }
+
+}
+
+.selecionada {
+    background-color: rgb(113, 30, 4);
+    padding: 5px;
+    border-radius: 4px;
+    //border-bottom: 5px solid rgb(222, 31, 10);
+}

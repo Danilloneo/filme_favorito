@@ -1,0 +1,33 @@
+@use 'header';
+@use 'presentation';
+@use 'about';
+@use 'cast';
+@use 'footer';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: none !important;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+
+body {
+    background-image: url('../images/background.gif');
+    background-size: cover;
+}
+
+
+.cursor-varinha {
+    z-index: 1001;
+    width: 120px;
+    height: 120px; 
+    background: url('../images/varinha.png') no-repeat center;
+    background-size: contain;
+    position: fixed;
+    pointer-events: none; 
+    }
+
+

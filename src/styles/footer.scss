@@ -1,0 +1,42 @@
+.footer {
+
+    text-align: center;
+    padding: 2.6vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    p {
+        color: #fff;
+    }
+    &__container {
+        background-color: #061538;
+        
+        h2 {
+            padding: 10px;
+        }
+
+        p {
+            padding-bottom: 10px;
+        }
+    }
+
+    &__social {
+        padding: 24px;
+        background-color: #020518; 
+        width: 100%;
+        border-top:  2px solid rgb(169, 145, 8);
+        
+        ul {
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            max-width: 400px;
+        }
+    }
+
+            li {
+            width: 100%;
+            }
+
+            }

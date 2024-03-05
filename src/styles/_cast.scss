@@ -1,0 +1,69 @@
+.cast {
+h2 {
+    color: #fff;
+    text-align: center;
+    padding: 24px;
+}
+.container {
+      display: flex;
+      overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se os cartões ultrapassarem a largura do contêiner */
+      gap: 16px; /* Espaçamento entre os cartões */
+      padding: 5.6vw; /* Espaçamento interno do contêiner */
+      position: relative;
+      overflow:hidden;
+  }
+
+.control {
+    top: -400px;
+}
+
+  /* Estilo do card */
+  .card {
+    width: 100%; /* Largura fixa do card */
+    border: 1px solid #ddd; /* Borda para separar os cartões */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    align-items: center;
+    text-align: center;
+    padding-left: 40%;
+    padding-right: 50%;
+    margin-right: 10%;
+    color: #fff;
+    img {
+        height: 280px;
+    }
+
+}
+
+  /* Estilo dos botões de navegação */
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .prev {
+    left: 0;
+    color: rgb(169, 145, 8);
+  }
+
+  .next {
+    color: rgb(169, 145, 8);
+    right: 0;
+  }
+
+  p {
+    text-align: center;
+    color: #fff;
+  }
+
+}
+
