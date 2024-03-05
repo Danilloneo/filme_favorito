@@ -29,8 +29,16 @@ h2 {
     padding-right: 50%;
     margin-right: 10%;
     color: #fff;
+    @media (max-width: 768px) {
+      width: 100%;
+      padding: auto;
+
+    }
     img {
         height: 280px;
+        @media (max-width: 768px) {
+          width: 270px;
+        }
     }
 
 }
